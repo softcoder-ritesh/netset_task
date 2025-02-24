@@ -1,16 +1,44 @@
-# netset_weather_task
+Weather App
 
-A new Flutter project.
+Overview
 
-## Getting Started
+A simple and user-friendly weather application built using Flutter. This app allows users to search for weather information of any city, view current weather conditions based on their location, and browse weather details for popular cities.
 
-This project is a starting point for a Flutter application.
+Features
 
-A few resources to get you started if this is your first Flutter project:
+Search Functionality: Users can search for weather updates of any city.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Recent Searches: The app stores recent searches using Hive for quick access.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Current Location Weather: Uses Geolocator to fetch weather data for the user's current location.
+
+Popular Cities: Displays weather updates for frequently searched cities.
+
+Beautiful UI: A clean and intuitive interface for a smooth user experience.
+
+Technologies Used
+
+Flutter: Frontend development framework.
+
+Hive: Local database for storing recent searches.
+
+Geolocator: Fetching current location coordinates.
+
+Weather API: To fetch weather details (e.g., OpenWeatherMap API).
+
+Provider/BLoC: State management for handling UI updates efficiently.
+
+Install dependencies
+
+flutter pub get
+
+Run the app
+
+flutter run
+
+(Make sure a device/emulator is connected)
+
+
+
+
+
